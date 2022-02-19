@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#bigger-container{
+    height: 100vh;
+    width: 100vw;
+}
+#upperdiv{
+    width: 100vw;
+    height: 160px;
+    background-color: antiquewhite;
+    overflow-y: hidden;
+}
+#newgamebtn{
+    left: 70px;
+    top: 35%;
+    position: relative;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+}
+#totalscore{
+    width: 600px;
+    height: 94px;
+    left: 300px;
+    position: relative;
+    background-color: white;
+    top: -12%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    padding-right: 0;
+}
+.totalscores{
+    background-color: aqua;
+    width: 280px;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#mode{
+    width: 180px;
+    left: 1000px;
+    height: 50px;
+    top: -55%;
+    background-color: aqua;
+    position: relative;
+    font-size: 30px;
+    padding: 10px 35px;
+    overflow-y: hidden;
+}
+#upperbtndivs{
+    width: 220px;
+    height: 100px;
+    background-color: aquamarine;
+    left: 980px;
+    position: absolute;
+    top: 107px;
+    padding: 3px;
+    display: none;
+    z-index: 2;
+}
+#normalbtn, #timedbtn{
+    width: 208px;
+    height: 40px;
+    margin: 3px;
+    font-size: 20px;
+}
+#middlediv{
+    width: 100vw;
+    height: 160px;
+    background-color: bisque;
+    overflow-y: hidden;
+}
+#startdiv{
+    width: 300px;
+    height: 160px;
+    background-color: aliceblue;
+    font-size: 70px;
+    padding: 40px;
+}
+#turnsdiv{
+    background-color: azure;
+    left: 300px;
+    position: relative;
+    width: 940px;
+    height: 160px;
+    top: -160px;
+}
+#lowerdiv{
+    width: 100vw;
+    height: 924px;
+    background-color: aquamarine;
+}
+#xocontainer{
+    background-color: white;
+    width: 700px;
+    height: 700px;
+    top: 50px;
+    left: 150px;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.boxes{
+    width: 230px;
+    height: 230px;
+    background-color: antiquewhite;
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 65px;
+}
+#enternames{
+    width: 100vw;
+    height: 60px;
+    background-color: antiquewhite;
+    top: 140px;
+    position: relative;
+    float: left;
+}
+.players{
+    height: 60px;
+    
+}
+#player1,#player2{
+    width: 45vw;
+    font-size: 30px;
+}
+#player2{
+    right: 0;
+    position: relative;
+}
+.playersdivs{
+    float: left;
+    position: relative;
+    margin: 0 px;
+}
+#submitnames{
+    width: 90px;
+    height: 60px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+ .options/*, .options1, .options2, .options3, .options4,.options5,.options6,.options7,.options8*/{ 
+    left: 900px;
+    top: 500px;
+    width: 300px;
+    height: 150px;
+    background-color: beige;
+    position: absolute;
+    float: left;
+    display: none;
+}
+#option1, #option2,#option11, #option21,#option12, #option22,#option13, #option23,#option14, #option24,#option15, #option25,#option16, #option26,#option17, #option27,#option18, #option28{
+    width: 140px;
+    height: 150px;
+    float: left;
+    background-color: aliceblue;
+    margin: 0 5px;
+    font-size: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    padding-bottom: 25px;
+}
