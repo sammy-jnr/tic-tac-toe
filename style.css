@@ -42,6 +42,25 @@
     justify-content: center;
     display: flex;
 }
+#totalrealscore1,#totalrealscore2{
+    position: relative;
+    right: -10px;
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#playersname1,#playersname2{
+    position: relative;
+    width: 180px;
+    height: 70px;
+    font-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #mode{
     width: 180px;
     left: 1000px;
@@ -82,6 +101,9 @@
     background-color: aliceblue;
     font-size: 70px;
     padding: 40px;
+}
+#startdiv:hover,#newgamebtn:hover,#mode:hover{
+    cursor: pointer;
 }
 #turnsdiv{
     background-color: azure;
@@ -127,7 +149,7 @@
     
 }
 #player1,#player2{
-    width: 45vw;
+    width: 44vw;
     font-size: 30px;
 }
 #player2{
@@ -145,27 +167,76 @@
     margin-left: 30px;
     font-size: 20px;
 }
- .options/*, .options1, .options2, .options3, .options4,.options5,.options6,.options7,.options8*/{ 
-    left: 900px;
-    top: 500px;
-    width: 300px;
-    height: 150px;
-    background-color: beige;
-    position: absolute;
-    float: left;
+ #options,#options1,#options2,#options3,#options4,#options5,#options6,#options7,#options8{ 
+    font-size: 150px;
+    background-color: antiquewhite;
+    width: 220px;
+    position: relative;
+    left: -60px;
+    height: 230px;
     display: none;
 }
-#option1, #option2,#option11, #option21,#option12, #option22,#option13, #option23,#option14, #option24,#option15, #option25,#option16, #option26,#option17, #option27,#option18, #option28{
-    width: 140px;
-    height: 150px;
-    float: left;
-    background-color: aliceblue;
-    margin: 0 5px;
+#option1, #option2,#option11,#option21,#option12,#option22,#option13,#option23,#option14,#option24,#option15,#option25,#option16,#option26,#option17,#option27,#option18,#option28{
     font-size: 170px;
-    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    position: relative;
+    padding: 9px ;
+    background-color: antiquewhite;
+}
+
+.lines{
+    position: absolute;
+    height: 7px;
+    width: 700px;
+    z-index: 2;
+    background-color: black;
+    display: none;
+}
+
+#line2{
+    left: 150px;
+    top: 720px;
+}
+#line1{
+    left: 150px;
+    top: 500px;
+}
+#line3{
+    left: 150px;
+    top: 950px;
+}
+#line4{
+    left: -80px;
+    top: 716px;
+    transform: rotate(90deg);
+}
+#line5{
+    left: 150px;
+    top: 716px;
+    transform: rotate(90deg);
+}
+#line6{
+    left: 380px;
+    top: 716px;
+    transform: rotate(90deg);
+}
+#line7{
+    width: 900px;
+    left: 30px;
+    top: 700px;
+    transform: rotate(45deg);
+}
+#line8{
+    width: 900px;
+    left: 70px;
+    top: 700px;
+    transform: rotate(-45deg);
+}
+
+#turnsdiv{
+    padding: 20px;
+    font-size: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow-y: hidden;
-    padding-bottom: 25px;
 }
